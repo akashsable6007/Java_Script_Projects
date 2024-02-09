@@ -6,7 +6,6 @@ const date = document.getElementById("end-date").innerText = endDate;
 const inputs = document.querySelectorAll("input");
 
 function clock(){
-
     const end = new Date(endDate);
     const curDate = new Date();
     const diff = (end - curDate) / 1000;
